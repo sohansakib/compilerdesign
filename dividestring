@@ -31,11 +31,6 @@ String[] word = new String[splitedCode.length];
 
 int i;
 
-for (i = 0; i < splitedCode.length; i++)
-{
-word[i] = checking(splitedCode[i], word);
-}
-
 System.out.println("\n\n\n");
 for (i = 0; i < splitedCode.length; i++)
 {
